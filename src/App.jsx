@@ -1,6 +1,9 @@
 import React from 'react';
 import Hero from './components/Hero';
 import Nav from './components/Nav';
+import Projects from './components/Projects';
+import Bio from './components/Bio';
+import Skills from './components/Skills';
 const App = ()=>{
 return (
   <>
@@ -9,6 +12,9 @@ return (
     <div className='relative z-10 flex flex-col items-center p-4 space-y-8 container mx-auto'>
       <Hero />
       <Nav />
+      <Projects />
+      <Bio />
+      <Skills />
     </div>
   </div>
   </>

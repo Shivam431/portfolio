@@ -16,7 +16,7 @@ const Nav = ()=>{
         const targetEle= document.querySelector(href);
         if(targetEle){
             const offSet = -85;
-            const elementPosition = targetEle.getBoundingClientReact().top;
+            const elementPosition = targetEle.getBoundingClientRect().top;
             const offsetPosition = elementPosition + window.scrollY + offSet;
 
             window.scrollTo({
